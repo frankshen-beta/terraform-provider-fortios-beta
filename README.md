@@ -17,7 +17,7 @@ go version go1.14.7 linux/amd64
 # git clone https://github.com/frankshen-beta/terraform-provider-fortios-beta
 # mv terraform-provider-fortios-beta/ terraform-provider-fortios
 # cd terraform-provider-fortios
-# export GO111MODULE=on
+# export GO111MODULE=off
 # make build
 
 # cd /yourworkdir/bin
