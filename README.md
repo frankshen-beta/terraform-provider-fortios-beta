@@ -22,5 +22,5 @@ go version go1.14.7 linux/amd64
 
 # cd /yourworkdir/bin
 ```
-After executing 'terraform init' for a tf file with fortios provider included, then move compiled terraform-provider-fortios file to .terraform/plugins/registry.terraform.io/fortinetdev/fortios/x.x.x/linux_amd64/terraform-provider-fortios_vx.x.x to overwrite the provider binary file.
+After executing 'terraform init' (terraform version: 0.13.5) for a tf file with fortios provider included, then move the compiled terraform-provider-fortios file to .terraform/plugins/registry.terraform.io/fortinetdev/fortios/x.x.x/linux_amd64/terraform-provider-fortios_vx.x.x to overwrite the provider binary file. Then executing 'terraform init' again.
 
